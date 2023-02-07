@@ -16,7 +16,7 @@ const Hero = (props) => (
         Hack AI
       </SectionTitle>
       <SectionText>
-        April (Date TBD)
+        April 15-16
       </SectionText>
       <SectionSubText>
       Student-run hackathon organized by the Artificial Intelligence Society at UTD, 
@@ -24,12 +24,9 @@ const Hero = (props) => (
       Intelligence related projects in the span of 24 hours. 
       </SectionSubText>
       <br></br>
-      <SectionSubText>
-      Check back again in March for updated information regarding the hackathon 
-      </SectionSubText>
       <br></br>
       <br></br>
-      <Button onClick = {() => openInNewTab("https://coda.io/form/Interest-Form_dcNCXHrKXOu")} > Fill out this interest form </Button>
+      <Button onClick = {() => openInNewTab("https://coda.io/form/HackAI-2022_d4OphGKMDDl")} > Sign up for the hackathon </Button>
     </LeftSection>
   </Section>
 );
